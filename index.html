@@ -1,22 +1,22 @@
 <html>
-
 <head>
 	<title>Parcel Sandbox</title>
 	<meta charset="UTF-8" />
 </head>
-
 <body>
 	<h1>Můj první formulář</h1>
-
-	<form>
+	<form method="GET">
 		Jmeno:<br/>
 		<input type="text" name="jmeno"/>
 		<br/><br/>
-		Příjmení:<br/>
-		<input type="text" name="prijmeni"/>
+		Heslo:<br/>
+		<input type="password" name="heslo"/>
 		<br/><br/>
 		<input type="submit" name="odeslat"/>
+		<br/><br/>
+		<input type="radio" name="gender" value="male" checked/> Muž <br/>
+		<input type="radio" name="gender" value="female" /> Žena<br/>
+		<input type="radio" name="gender" value="Jirka" /> Jiřík <br/>
 	</form>
 </body>
-
 </html>
